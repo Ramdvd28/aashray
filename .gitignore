@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Environment variables (contains sensitive secrets)
+.env
+.env.local
+.env.*
+*.env
+backend/.env
+reacat-frontend/.env
+
+# Build outputs
+dist/
+build/
+
+# Logs & temp
+*.log
+.DS_Store
+Thumbs.db
